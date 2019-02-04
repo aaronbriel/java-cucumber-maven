@@ -1,0 +1,95 @@
+# Folders #
+###########
+target
+src/test/resources/external/applications
+
+# generated folders and files #
+###############################
+*.class
+*.number
+*.prefs
+hmc.xsd
+items.xsd
+extensioninfo.xsd
+platformhome.properties
+*hmc.jar
+beans.xsd
+*testclasses.xml
+.sass-cache
+*.scssc
+hmc/bin/*.jar
+orders.txt
+ios-driver.log
+ios-server-standalone-0.6.6-SNAPSHOT.jar
+logstash-ios-driver.log
+
+#Ignore merged original copies
+*.orig
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+/.buildpath
+/build/
+*/archive/
+
+__MACOSX
+
+.settings
+.sass-cache/
+
+# OS generated files #
+######################
+*/.DS_Store
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# IntelliJ files #
+.idea/
+*.iml
+*.eml
+.DS_Store
+
+# Merge Files #
+*.BASE
+*.LOCAL
+*.REMOTE
+
+RemoteSystemsTempFiles/
+.metadata
+
+config/template/customize/dummy.txt
+config/template/languages/dummy.txt
+config/template/tomcat/tomcat_context.tpl
+
+# maven generated files #
+######################
+extensions/dtintegration/lib/.lastupdate
+extensions/dtcore/lib/.lastupdate
+
+# jalo file
+**/jalo/*
+
+# Temp Files
+*.swp
+*.tmp
